@@ -7,7 +7,7 @@
     "watch": "shadow-cljs watch server client",
     "compile": "shadow-cljs compile server client",
     "build": "shadow-cljs release server client",
-    "db": "goose -dir migrations"
+    "db": "goose -dir migrations sqlite3 db.sqlite3"
   },
   "author": "Daniel Schleindlsperger",
   "license": "ISC",
