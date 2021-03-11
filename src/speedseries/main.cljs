@@ -50,3 +50,5 @@
   (ig/halt! @system)
   (reset! system (ig/init system-config))
   (println "Reloaded system!"))
+
+;; TODO: Handle SIGTERM signals
