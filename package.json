@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node target/server.js",
     "watch": "shadow-cljs watch server client",
     "compile": "shadow-cljs compile server client",
     "build": "shadow-cljs release server client",
