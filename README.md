@@ -12,14 +12,16 @@ Data is stored in SQLite. Database migrations are run by [goose](https://github.
 - Node.js >= 14
 - Clojure
 - JVM >= 8
+- goose CLI
 - Docker for builds
 
 ### Getting started
 
 1. Creat an empty database: `touch db.sqlite3`
-2. Install npm dependencies: `npm ci`
-3. Start shadow-cljs server: `npm run watch`
-4. After the first compilation, run the app: `npm start`
+2. Run database migrations: `npm run db up`
+3. Install npm dependencies: `npm ci`
+4. Start shadow-cljs server: `npm run watch`
+5. After the first compilation, run the app: `npm start`
 
 ### Database
 
