@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "shadow-cljs watch app",
-    "compile": "shadow-cljs compile app",
-    "build": "shadow-cljs release app",
+    "watch": "shadow-cljs watch server client",
+    "compile": "shadow-cljs compile server client",
+    "build": "shadow-cljs release server client",
     "db": "goose -dir migrations"
   },
   "author": "Daniel Schleindlsperger",
