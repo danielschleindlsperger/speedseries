@@ -1,0 +1,10 @@
+{:paths ["src" "test"]
+ :aliases
+        {:dev  {:extra-deps {org.clojure/clojure       {:mvn/version "1.10.2"}
+                             org.clojure/clojurescript {:mvn/version "1.10.773"}
+                             thheller/shadow-cljs      {:mvn/version "2.11.18"}
+                             integrant                 {:mvn/version "0.8.0"}
+                             macchiato/core            {:mvn/version "0.2.21"}
+                             funcool/promesa           {:mvn/version "6.0.0"}
+                             macchiato/hiccups         {:mvn/version "0.4.1"}}}
+         :test {:extra-paths ["test"]}}}

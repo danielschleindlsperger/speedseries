@@ -1,0 +1,8 @@
+{:deps   {:aliases [:dev :test]}
+ :builds {:app    {:target    :node-script
+                   :output-to "target/main.js"
+                   :main      speedseries.main/main!}
+          :client {:target    :browser
+                   :output-dir "target/public/assets"
+                   :asset-path "/assets"
+                   :modules   {:browser-app {:entries [speedseries.browser-app]}}}}}
