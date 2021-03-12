@@ -34,6 +34,8 @@ npm run db up
 npm run db reset
 # Reverse by one migration
 npm run db down
+# Create new migration
+npm run db create $NAME [sql
 ```
 
 ### Building and Publishing
