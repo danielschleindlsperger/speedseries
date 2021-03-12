@@ -3,7 +3,7 @@
   (:require [hiccups.runtime]
             [goog.object :as go]))
 
-(defn- bytes->mbits [bytes] (/ (* bytes 8) 1000 1000))
+(defn- bytes->mbits [bytes] (/ (* bytes 8) 1024 1024))
 
 (defn- parse-chart-data! []
   (when-let [data-node (.querySelector js/document "#chart-data")]
